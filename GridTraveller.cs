@@ -20,7 +20,7 @@ namespace DynamicProgramming
     {
       if (m == 1 && n == 1) return 1;
       if(m == 0 || n == 0) return 0;
-      return gridTraveller(m-1, n) + gridTraveller(m, n-1);
+      return gridTraveller(m-1, n) + gridTraveller(m, n-1); // Time complexity 2 raise to n+m and space complexity is O(n+m) with only recursion
     }
   }
 }
