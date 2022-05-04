@@ -12,6 +12,7 @@ public class Program
   }
 
   //To speed up the process and store already calculated values we need memoization and store these values in a fast access datastructure.
+  //By memoizing the function we brought the time complexity from exponential to O(n) and space complexity is O(n) as before.
   public static long RecurFib(int n, long[] memo)
   {
     
